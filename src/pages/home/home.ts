@@ -10,7 +10,8 @@ import 'rxjs/add/operator/map';
 export class HomePage {
 
   public feeds: Array<string>;
-  private url: string = "https://www.reddit.com/new.json";
+  private url: string = "api/test.json";
+  // private url: string = "https://www.reddit.com/new.json";
 
   constructor(public navCtrl: NavController, public http: Http) {
 
